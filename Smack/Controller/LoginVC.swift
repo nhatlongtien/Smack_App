@@ -17,6 +17,7 @@ class LoginVC: UIViewController {
     @IBOutlet weak var spiner: UIActivityIndicatorView!
     override func viewDidLoad() {
         super.viewDidLoad()
+        password.isSecureTextEntry = true
         setupView()
     }
     // MARK: - UI evets

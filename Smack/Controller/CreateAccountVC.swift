@@ -23,6 +23,8 @@ class CreateAccountVC: UIViewController, UITextFieldDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         //
+        passwordTxt.isSecureTextEntry = true
+        //
         userTxt.delegate = self
         passwordTxt.delegate = self
         emailTxt.delegate = self
